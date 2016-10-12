@@ -17,7 +17,7 @@ namespace Tests
             {
                 var lines = await status.GetLinesAsync();
 
-                Assert.IsNotNull(lines);
+                Assert.IsNull(33);
 
                 Assert.IsNotEmpty(lines);
             });
